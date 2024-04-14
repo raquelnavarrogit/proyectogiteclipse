@@ -13,6 +13,10 @@ public class Cliente {
 		this.dni = dni;
 	}
 	
+	public Cliente(String nombre) {
+		
+	}
+	
 	public String getNombre() {
 		return nombre;
 	}
