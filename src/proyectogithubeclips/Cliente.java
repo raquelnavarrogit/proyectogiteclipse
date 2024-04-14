@@ -13,17 +13,9 @@ public class Cliente {
 		this.dni = dni;
 	}
 	
-	
-	
-	
-	
-	
 	public Cliente(String nombre, String apellido) {
 	}
 	
-	public Cliente(String dni) {
-		
-	}
 	
 	public String getNombre() {
 		return nombre;
