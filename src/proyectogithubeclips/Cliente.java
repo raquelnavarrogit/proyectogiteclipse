@@ -13,7 +13,7 @@ public class Cliente {
 		this.dni = dni;
 	}
 	
-	public Cliente() {
+	public Cliente(String apellido) {
 		
 	}
 	
