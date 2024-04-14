@@ -38,7 +38,20 @@ public class Tienda {
 		stock.add(elemento);
 	}
 	
+	public void mostrarClientes() {
+		
+		for (int i = 0; i < usuarios.size(); i++) {
+			JOptionPane.showMessageDialog(null,usuarios.get(i));
+		}
+	}
 	
+	
+	public void mostrarProductos () {
+		
+		for (int i = 0; i < stock.size(); i++) {
+			JOptionPane.showMessageDialog(null,stock.get(i));
+		}
+	}
 	
 	
 	
