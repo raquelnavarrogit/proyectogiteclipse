@@ -26,6 +26,18 @@ public class Tienda {
 		usuarios.add(usuario);
 	}
 	
+	public void añadirProducto () {
+		
+		String nombre = JOptionPane.showInputDialog("Introduzca el nombre del producto: ");
+		String marcas = JOptionPane.showInputDialog("Elija la marca del producto: ");
+		int id = Integer.parseInt(JOptionPane.showInputDialog("Introduzca el id del producto: "));
+		int cantidad = Integer.parseInt(JOptionPane.showInputDialog("Introduzca las unidades del producto: "));
+		
+		Producto elemento = new Producto (id,nombre,marcas,cantidad);
+		
+		stock.add(elemento);
+	}
+	
 	
 	
 	
