@@ -14,7 +14,6 @@ public class Cliente {
 	}
 	
 	public Cliente(String nombre) {
-		
 	}
 	
 	public String getNombre() {
@@ -41,6 +40,10 @@ public class Cliente {
 		this.dni = dni;
 	}
 	
+	@Override
+	public String toString() {
+		return "Cliente [nombre=" + nombre + ", apellido=" + apellido + ", dni=" + dni + "]";
+	}
 	
 	
 	
