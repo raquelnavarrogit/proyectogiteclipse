@@ -13,7 +13,12 @@ public class Cliente {
 		this.dni = dni;
 	}
 	
-	public Cliente(String nombre) {
+	
+	
+	
+	
+	
+	public Cliente(String nombre, String apellido) {
 	}
 	
 	public String getNombre() {
