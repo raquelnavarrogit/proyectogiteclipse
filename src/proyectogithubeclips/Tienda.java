@@ -8,4 +8,21 @@ public class Tienda {
 	ArrayList <Producto> stock = new ArrayList <Producto> ();
 	Cliente cliente;
 	Producto producto;
+	
+	public Tienda() {
+		super();
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
